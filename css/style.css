@@ -3,3 +3,28 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: #010409;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.inputSearch {
+    outline: none;
+    border: .1rem solid gray;
+    background: transparent;
+}
+
+@media screen and (min-width: 768px) {
+    .main-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.weatherNum {
+    font-size: 2.5rem;
+}
