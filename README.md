@@ -1,5 +1,8 @@
 # Aplicación del Clima ✨
-Esta es una aplicación simple del clima que utiliza HTML, CSS, Bootstrap y JavaScript para obtener información climática a través de un pedido a la API de OpenWeatherMap. Con esta aplicación, puedes obtener detalles como la temperatura actual, la sensación térmica, la temperatura máxima y mínima, y la humedad para ciudades de todo el mundo.
+Esta es una aplicación simple del clima que utiliza HTML, CSS, Bootstrap y JavaScript para obtener información climática a través de un pedido a la API de OpenWeatherMap. Con esta aplicación, puedes obtener detalles como la temperatura actual, la sensación térmica, la temperatura máxima y mínima, y la humedad de las ciudades de todo el mundo.
+
+[![climapp-movil.png](https://i.postimg.cc/SxSFnMTy/climapp-movil.png)](https://postimg.cc/BXVwyXfy)
+
 ## Características
 - Consulta el clima actual de ciudades en todo el mundo.
 - Muestra la temperatura actual, sensación térmica, temperatura máxima y mínima, y humedad.
