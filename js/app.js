@@ -2,7 +2,7 @@ const btnSearch = document.getElementById("btnSearch")
 const inputSearch = document.getElementById("inputSearch")
 
 const url = "https://api.openweathermap.org/data/2.5/weather"
-const apiKey = "" //Borré la clave por cuestiones de seguridad.
+const apiKey = "" //Clave borrada por seguridad
 
 btnSearch.addEventListener("click", (e) => {
     e.preventDefault()
@@ -30,7 +30,7 @@ inputSearch.addEventListener("input", () => {
     if (city === "") {
         weatherData.innerHTML = `
         <div class="d-flex justify-content-center mb-3">
-            <img class="main-img" src="./img/main-icon.svg" alt="imagen principal de la app">
+            <img class="main-img" src="./img/location-icon.png" alt="imagen principal de la app">
         </div>
         `
     }
