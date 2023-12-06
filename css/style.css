@@ -6,10 +6,13 @@
 
 body {
     background-color: #010409;
+    font-family: 'Poppins', sans-serif;
 }
 
 h1 {
     font-size: 2.5rem;
+    font-weight: 700;
+    color: #8E2DE2;
 }
 
 .inputSearch {
@@ -18,13 +21,29 @@ h1 {
     background: transparent;
 }
 
+@media screen and (min-width: 320px) {
+    .main-img {
+        width: 90%;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .main-img {
         width: 50%;
-        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .main-img {
+        width: 30%;
     }
 }
 
 .weatherNum {
     font-size: 2.5rem;
+}
+
+.btn {
+    background-color: #4A00E0;
+    color: white;
 }
